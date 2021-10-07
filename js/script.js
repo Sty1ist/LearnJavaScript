@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 let admin;
 let userName = 'Jonnatan';
