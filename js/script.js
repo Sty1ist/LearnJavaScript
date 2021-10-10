@@ -40,13 +40,29 @@ if (ecmaYear == 2015) {
     console.log('ГЫЫыыыЫ, НЕ ВЕРНО!!!!');
 } */
 
-const ecmaYear = prompt('в каком году вышел ES6-2015?', '');
-if (ecmaYear > 2015) {
-    console.log('Та это уже поздно!');
-    console.log('Дядь, в можна не!');
-} else if (ecmaYear < 2015){
-    console.log('Не! точно не ранее чем 2015!');
-    console.log('Ты чего дядь?Не угадал!');
-} else {
-    console.log('Ага!=)');
-}
+// const ecmaYear = prompt('в каком году вышел ES6-2015?', '');
+// if (ecmaYear > 2015) {
+//     console.log('Та это уже поздно!');
+//     console.log('Дядь, в можна не!');
+// } else if (ecmaYear < 2015){
+//     console.log('Не! точно не ранее чем 2015!');
+//     console.log('Ты чего дядь?Не угадал!');
+// } else {
+//     console.log('Ага!=)');
+// }
+
+// let accesAllowed;
+// let age = prompt('сколько вам лет?', '');
+// if (age >= 18) {
+//     accesAllowed = true;
+//     alert('Acces Alowed!');
+// } else {
+//     accesAllowed = false;
+//     alert('Acces not allowed!!!');
+// }
+
+// alert(accesAllowed);
+
+let age = prompt('Сколько вам лет?', '');
+let accesAllowed = (age >= 18) ? true : false;
+alert(accesAllowed);
