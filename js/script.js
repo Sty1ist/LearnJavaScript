@@ -29,3 +29,7 @@ undefined == null  //true
 undefined === null  //false
 null == "\n0\n"  //false
 null === +"\n0\n"  //false */
+
+
+const ecmaYear = +prompt('в каком году вышел ES6-2015?', '');
+if (ecmaYear == 2015) console.log('Верно!Молодец!');
