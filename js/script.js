@@ -63,6 +63,44 @@ if (ecmaYear == 2015) {
 
 // alert(accesAllowed);
 
-let age = prompt('Сколько вам лет?', '');
-let accesAllowed = (age >= 18) ? true : false;
-alert(accesAllowed);
+// let age = prompt('Сколько вам лет?', '');
+// let accesAllowed = age >= 18;
+// alert(accesAllowed);
+
+/* const officialNameJS = prompt('Какое оффициальнон имя JavaScript?', '');
+
+if (officialNameJS == 'ECMAScript') {
+    alert('Верно!');
+} else {
+    alert('«Не знаете? ECMAScript!');
+} */
+
+
+/* const count = +prompt('Введите ваше число', '');
+if (count > 0) {
+        alert(1);
+} else if (count < 0) {
+    alert(-1);
+} else {
+    alert(0);
+}
+ */
+
+// let a = 5;
+// let b = 2;
+// let result = a + b < 4 ? alert('Malo') : alert('Много');
+
+
+/* const login = prompt('Ваша должность', '');
+let message = (login == 'Сотрудник') ? 'Привет' :
+    (login == 'Директор') ? 'Здравствуйте':
+    (login == '') ? 'Нет логина' :
+        '';
+alert(`${message} ${login}`); */
+
+let hour = prompt('Который час?', '');
+if (hour < 9 || hour > 18) {
+    alert('Офис уже закрыт дядя');
+} else {
+    alert('Як то кажуть: Ласкаво просымо!ДЯДЯ!=))0');
+}
