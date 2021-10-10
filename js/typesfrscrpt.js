@@ -8,22 +8,22 @@
 
 //Вариант №1
 let userAge = 36;
-let userInfo = "Фрилансер ${userAge}";
+let userInfo = "Фрилансер ${userAge}"; //not true
 
 //Вариант №2
 let userHeight = 145 / 0;
 //Вернется значение NaN
-console.log(userHeight);
+console.log(userHeight); //not true
 
 //Вариант №3
 let userName;
 //Вернется тип данных Null
-console.log(typeof userName);
+console.log(typeof userName); //not true
 
 //Вариант №4
 let userSize = "45" / "8";
 //Вернется тип данных Number
-console.log(typeof userSize);
+console.log(typeof userSize); //true
 
 
 
