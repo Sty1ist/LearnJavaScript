@@ -1,5 +1,14 @@
 'use strict';
 
-let apple = 16;
-let qiwi = 7;
-console.log(apple % qiwi);
+// let a = prompt("Первое число?", 1);
+// let b = prompt("Второе число?", 2);
+
+// alert(+(a) + +(b)); // 12
+
+(a > b);
+a < b;
+a >= b;
+a <= b;
+a != b;
+
+// операторы сравнения
