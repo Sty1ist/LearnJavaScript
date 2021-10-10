@@ -31,5 +31,22 @@ null == "\n0\n"  //false
 null === +"\n0\n"  //false */
 
 
-const ecmaYear = +prompt('в каком году вышел ES6-2015?', '');
-if (ecmaYear == 2015) console.log('Верно!Молодец!');
+/* const ecmaYear = +prompt('в каком году вышел ES6-2015?', '');
+if (ecmaYear == 2015) {
+    console.log('Верно!');
+    console.log('Дядь, ты молодец!');
+} else {
+    console.log('Вухахахаха, нуб, неугадал!');
+    console.log('ГЫЫыыыЫ, НЕ ВЕРНО!!!!');
+} */
+
+const ecmaYear = prompt('в каком году вышел ES6-2015?', '');
+if (ecmaYear > 2015) {
+    console.log('Та это уже поздно!');
+    console.log('Дядь, в можна не!');
+} else if (ecmaYear < 2015){
+    console.log('Не! точно не ранее чем 2015!');
+    console.log('Ты чего дядь?Не угадал!');
+} else {
+    console.log('Ага!=)');
+}
