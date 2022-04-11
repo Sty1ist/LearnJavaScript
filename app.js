@@ -1,62 +1,22 @@
-'use strict'
+'use strict';
 
-// let admin;
-// let name = 'Джон';
+// alert(1);
+let i = 1 + 2;
+console.log(i);
 
-// admin = name;
+// let result = confirm('Are you here?');
+// console.log(result);
 
-// let ourPlanetName;
-// let currentUserName = 'Stepan';
-// alert(admin);
+// let answer = prompt('What you age?', '17');
+// console.log(typeof answer);
 
-const obg = {
-    key: 2
-};
+// let answers = [];
 
-obg.key = 3;
+// answers[0] = prompt('Как зовут?', '');
+// answers[1] = prompt('Как дела?', '');
+// answers[2] = prompt('го в кино?', '');
 
-console.log(obg.key * 2 / 0 * 'Hallo');
+// console.log(answers);
 
-let myName = 'Maksym';
-console.log(myName);
 
-let bool = true;
-console.log(bool);
 
-let und;
-
-console.log(und)
-
-let objct = {
-    name: 'Maksym',
-    age: 28,
-    isMarried: false
-};
-
-console.log(objct.name);
-
-let arr = ['Maksym', 'favicon.ico', 'cat', 28, true, { age: 30 }];
-console.log(arr[5].age);
-
-let msg = 'Hello';
-msg = 244.5567;
-msg = 'lol'
-
-console.log(typeof msg)
-
-let mySecondName = 'Riabenko';
-
-console.log(`i am Maksym, i am ${20 + 8}  years old`);
-
-let isBigger = 4 > 1;
-console.log(isBigger);
-
-let name;
-console.log(name);
-
-name = 5;
-
-console.log(name);
-
-name = undefined;
-console.log(name);
