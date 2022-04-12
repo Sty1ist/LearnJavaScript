@@ -19,4 +19,53 @@ console.log(i);
 // console.log(answers);
 
 
+let num = 12;
+let num1 = 3;
+
+console.log('+:', num + num1);
+console.log('-:', num - num1);
+console.log('*:', num * num1);
+console.log('/:', num / num1);
+
+let str = 'hello';
+let str1 = 'World';
+
+console.log(str + ' ' + str1);
+console.log('Yo' + 16);
+
+let inc = 10;
+let dec = 10;  
+
+// ++inc; //інкремент
+// --dec; //декремент
+
+// console.log(++inc);
+// console.log(--dec);
+
+// let isChecked = true;
+// let isClose = false;
+
+// console.log(!isClose && isChecked);
+
+
+let result = 12 - 6 / 3;
+let result2 = 3 + 4 * 2;
+let isGreater = 20 - 6 * 3 >= 4;
+let isGreater2 = 20 - 6 * 3 >= 1;
+
+console.log(isGreater2);
+
+let e = 1;
+// e = e + 1;
+e += 1;
+
+e *= 2;
+
+e /= 1.5;
+
+console.log(e);
+
+
+
+
 
