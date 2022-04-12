@@ -84,8 +84,73 @@
 // console.log('4 == "4"', 4 == '4');
 // console.log('4 === "4"', 4 === '4');
 
-console.log(!true || false);
-console.log(true && false);
+// console.log(!true || false);
+// console.log(true && false);
+
+let num10 = 10;
+console.log(num10);
+console.log(String(num10));
+
+let value = true;
+console.log(typeof value);
+
+value = String(value);
+console.log(typeof value);
+
+value = Number(value);
+console.log(typeof value);
+
+console.log(typeof ('8' / '2'));
+
+let str4 = 'sting4';
+console.log(typeof str4);
+
+let num = Number(str4);
+console.log(typeof num);
+
+let age = Number('some text 4');
+console.log(age);
+
+let text = '';
+text = Number(text);
+console.log(text);
+
+let x = 1;
+x = -x;
+console.log(x);
+
+x = 10;
+let y = 5;
+console.log(x - y);
+
+let strings = 'my' + ' ' + 'string';
+console.log(strings);
+
+let apples = '2';
+let orange = '6';
+
+console.log(+apples + +orange);
+
+console.log((1 + 5) * 5);
+
+let a, b, c;
+a = b = c = 2 + 5;
+console.log(a, b, c);
+
+let counter = 2;
+console.log(++counter);
+console.log(2 + ++counter);
+
+console.log(true & true);
+
+let t = '1';
+let i = '2';
+console.log(+t + +i);
+console.log(Number(t) + Number(i));
+
+let resultFive = 5 > 1;
+console.log(resultFive);
+
 
 
 
