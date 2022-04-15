@@ -47,6 +47,3 @@ console.log(null === +"\n0\n"); //false
 
 
 
-
-
-
