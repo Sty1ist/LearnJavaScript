@@ -69,8 +69,10 @@ let result;
 // } else {
 //   message = '';
 // }
-let login;
-let message1 = (login == 'Сотрудник') ? 'Привет' : (login == 'Директор') ? 'Здравствуйте' : (login == '') ?'Нет логина' : '';
+// let login;
+// let message1 = (login == 'Сотрудник') ? 'Привет' : (login == 'Директор') ? 'Здравствуйте' : (login == '') ?'Нет логина' : '';
+
+
 
 
 
