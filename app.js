@@ -35,6 +35,42 @@ console.log(null === +"\n0\n"); //false
 
 // console.log(undefined == null);
 
+// let jsCompany = prompt('Какое оф название JS?', '');
+
+// if (jsCompany == 'ECMAScript') {
+//     console.log('Верно!');
+// } else {
+//     console.log('Не знаете? “ECMAScript”!!');
+// }
+
+// let number = prompt('Веедите код', '1');
+
+// if (number > 0) {
+//     console.log(1);
+// } else if (number < 0) {
+//     console.log(-1); 
+// } else (number == 0){
+//     console.log(0);
+// }
+let result;
+// ('a' + 'b' < 4) ? result = 'Мало' : result = 'Много';
+// console.log(result);
+
+// result = ('a' + 'b' < 4) ? 'Мало' : 'Много';
+
+// let message;
+
+// if (login == 'Сотрудник') {
+//   message = 'Привет';
+// } else if (login == 'Директор') {
+//   message = 'Здравствуйте';
+// } else if (login == '') {
+//   message = 'Нет логина';
+// } else {
+//   message = '';
+// }
+let login;
+let message1 = (login == 'Сотрудник') ? 'Привет' : (login == 'Директор') ? 'Здравствуйте' : (login == '') ?'Нет логина' : '';
 
 
 
