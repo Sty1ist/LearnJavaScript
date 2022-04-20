@@ -195,10 +195,84 @@
 // }
 
 
-let age = prompt('press number', '0');
-if (age >= 14 && age <= 90) {
-    console.log('В диапазоне нужного');
-} else {
-    console.log('Не в диапазоне нужного!')
-}
+// let age = prompt('press number', '0');
+// if (age >= 14 && age <= 90) {
+//     console.log('В диапазоне нужного');
+// } else {
+//     console.log('Не в диапазоне нужного!')
+// }
+// let x = -1;
+// console.log(Boolean(x));
+
+// let login = prompt('Введите логин','Админ');
+// let pass;
+
+// if (login == 'Админ') {
+//     pass = prompt('Введите ваш пароль' ,'2288');
+//     if (pass == 2288 ) {
+//         alert('Рад вас видеть!')
+//     } else if (pass == '') {
+//         alert('Отменено');
+//     } else {
+//         alert('Не верный пароль!')
+//     }
+// } else if (login == '') {
+//     alert('Отменено');
+// } else {
+//     alert('Я вас не знаю!');
+// }
+
+// let firsName;
+// let lastName = 'Riabenko';
+// let nickName;
+
+// alert(firsName ?? lastName ?? nickName ?? 'noName');
+// alert(firsName || lastName || nickName || 'noName');
+
+// let height = 0;
+//Задачки по логическим оператора && and ||
+// console.log(NaN || 2 || undefined); //+ (2)
+// console.log(NaN && 2 && undefined); //(NaN) +
+// console.log(1 && 2 && 3); //(3) +
+// console.log(!1 && 2 || !3);//false \\ false +
+// console.log(25 || null && !3);//25 +
+// console.log(NaN || null || !3 || undefined || 5); //5+
+// console.log(NaN || null && !3 && undefined || 5); //5+
+// console.log(5 === 5 && 3 > 1 || 5);//true+
+
+//задачки по if
+//1)
+// const hamburger = 3;
+// const fries = 3;
+// const cola = 0;
+// const nuggets = 2;
+ 
+// if (hamburger === 3 && cola || fries === 3 && nuggets) {
+//     console.log('Done!')
+//     //true
+// }
+
+//2)
+// let hamburger;
+// const fries = NaN;
+// const cola = 0;
+// const nuggets = 2;
+ 
+// if (hamburger || cola || fries === 3 || nuggets) {
+//     console.log('Done!')
+//     //true(2)
+// }
+
+//3)
+// let hamburger;
+// const fries = NaN;
+// const cola = 0;
+// const nuggets = 2;
+ 
+// if (hamburger && cola || fries === 3 && nuggets) {
+//     console.log('Done!')
+//     //false
+// }
+
+
 
