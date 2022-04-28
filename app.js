@@ -226,3 +226,22 @@ console.log(guestList2.length);
 // }
 
 // extractCurrencyValue(price);
+
+
+
+//OBJECTS
+let obj = {};
+
+obj = {
+    name: 'Maksym',
+    age: 28
+}
+
+
+//добавил свойство к объекту
+obj.isCountry = 'Ukraine';
+
+//удалил свойство из объекта
+delete obj.age;
+
+console.log(obj);
